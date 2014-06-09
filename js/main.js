@@ -18,3 +18,10 @@ $('#googlenews').feeds({
     max: 10
 });
 
+$('#centralorfireinfo').feeds({
+    feeds: {
+        feed1: 'http://centralorfireinfo.blogspot.com/feeds/posts/default',
+    },
+    max: 10
+});
+
