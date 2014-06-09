@@ -1,16 +1,15 @@
+.sharebox {
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
+	width: 430px;
+	float: left;
+}
+h3 .twitter-share-button {
+	float: right;
+}
+h3 .fb-share-button {
+	padding-right: 10px;
+	float: right;
+}
 
 
 

@@ -18,8 +18,7 @@
 <!-->
 
 <html class="no-js">
-  
-  <!--
+<!--
 <![endif]-->
   <head>
     <meta charset="utf-8">
@@ -72,6 +71,14 @@ window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>'
 </script>
 <![endif]-->
   </head>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=198803199072&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -87,9 +94,7 @@ window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>'
             <span class="icon-bar">
             </span>
           </button>
-          <a class="navbar-brand" href="#">
-            Realtime Fire Data - Two Bulls Fire Bend, Oregon
-          </a>
+          <a class="navbar-brand" href="http://www.jeremymorgan.com/apps/two-bulls-realtime/">Realtime Fire Data - Two Bulls Fire Bend, Oregon</a>
         </div>
         
       </div>
@@ -100,8 +105,19 @@ window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>'
             <div class="col-md-1">
             </div>
             <div class="col-md-10">
+            <div class="sharebox">
+            <h3 class="share">Share this Map --&gt; <a href="https://twitter.com/share" class="twitter-share-button" data-text="Realtime Fire Map and Data for #TwoBullsFire in Bend --&gt; " data-via="JeremyCMorgan" data-size="large" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+<div class="fb-share-button" data-href="http://www.jeremymorgan.com/apps/two-bulls-realtime/" data-type="button_count"></div>
+</h3>
+</div>
               <iframe src="https://mapsengine.google.com/02335441553671042795-16071188762309719429-4/widget/in_iframe" width="100%" height="600px">
               </iframe>
+              <br /><br /><br />
+              <div class="fb-like" data-href="http://www.jeremymorgan.com/apps/two-bulls-realtime/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+              <br />
+              <br />
+              <h2>The FIRE INFORMATION LINE for #TwoBullsFire is now live at 541-550-4888. Call for latest fire updates and information</h2>
             </div>
             <div class="col-md-1">
             </div>
@@ -142,6 +158,13 @@ window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>'
                   DEQ Air Quality Index
                 </a>
               </li>
+             <li>
+                <a href="https://signup2.tfcci.com/signup-web/login.html?token=0524c5dacf67ec0fa39ec47b1cf23358e29d84c4&decorator=intrado&request_locale=" target="_blank">
+                  Deschutes County 911 Alerts
+                </a>
+              </li>
+
+
             </ul>
             <h3>
               Two Bulls Fire on Twitter
